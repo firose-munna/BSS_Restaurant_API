@@ -49,7 +49,7 @@ Password: Admin@123
 Change the Server Name and Localhost Port at appssettings.json
 
 ```bash
-  "ConnectionStrings": {
+"ConnectionStrings": {
   "DefaultConnection": "Server = Your_Server_Name_Here; Database = RestaurantsDB;
        Trusted_Connection = True; MultipleActiveResultSets=true; TrustServerCertificate = True"
 },
@@ -63,7 +63,7 @@ Change the Server Name and Localhost Port at appssettings.json
 Change the port number at program.cs file
 
 ```bash
-  builder.Services.AddCors(options => options.AddPolicy(name: "Custom_Name",
+builder.Services.AddCors(options => options.AddPolicy(name: "Custom_Name",
       policy => { policy.WithOrigins("http://localhost:Your_Port_Number/")
       .AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin(); }));
 
