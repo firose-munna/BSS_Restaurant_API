@@ -33,10 +33,8 @@ namespace Core.Repositories
             Expression<Func<TEntity, bool>> predicate,
             CancellationToken cancellationToken = default);
 
-
         Task AddAsync(TEntity entity);
         Task AddRangeAsync(IEnumerable<TEntity> entities);
-
 
         void Remove(TEntity entity);
         void Remove<TKey>(TKey id);

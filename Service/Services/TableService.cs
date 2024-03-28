@@ -23,7 +23,7 @@ namespace Service.Services
                 TableNumber = newModel.TableNumber,
                 NumberOfSeats = newModel.NumberOfSeats,
                 Image = newModel.Base64,
-                IsOccupied = true,
+                IsOccupied = null,
 
             };
             await _table.Entity.AddAsync(table);

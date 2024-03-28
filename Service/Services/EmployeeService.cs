@@ -43,7 +43,7 @@ namespace Service.Services
             {
                 var employee = new Employee
                 {
-                    Designation = newModel.Designantion,
+                    Designation = newModel.Designation,
                     UserId = user.Id,
                     JoinDate = newModel.JoinDate,
                 };

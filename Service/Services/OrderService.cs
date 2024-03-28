@@ -2,6 +2,7 @@
 using Core.Services;
 using Core.ViewModels;
 using Core;
+using Core.Enums;
 
 namespace Service.Services
 {
@@ -34,6 +35,7 @@ namespace Service.Services
                 OrderNumber = newModel.OrderNumber,
                 Amount = newModel.Amount,
                 OrderTime = DateTime.Now,
+                OrderStatus = OrderStatus.Pending,
             };
             await _order.Entity.AddAsync(order);
             await _order.CommitAsync();

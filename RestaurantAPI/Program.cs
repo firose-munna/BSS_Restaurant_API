@@ -47,7 +47,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
     };
 });
 
-builder.Services.AddCors(options => options.AddPolicy(name: "BSS", policy => { policy.WithOrigins("http://localhost:7038/").AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin(); }));
+builder.Services.AddCors(options => options.AddPolicy(name: "BSS", policy => { policy.WithOrigins("http://localhost:5173/").AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin(); }));
 
 var app = builder.Build();
 
