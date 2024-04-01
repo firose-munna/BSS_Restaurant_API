@@ -20,7 +20,6 @@ The main challenge is to design the database schema, conneting the database and 
 ## Used Technologies
 1. ASP.NET Core (8.0.3)
 2. SQLServer Database
-3. SSMS- SQL Server Management Studio-19
 
 ## Used Packages
 1. Microsoft.AspNetCore.Authentication.JwtBearer, Version="8.0.3"
@@ -35,7 +34,7 @@ The main challenge is to design the database schema, conneting the database and 
 10. System.IdentityModel.Tokens.Jwt, Version="7.4.1"
 
 ## 🔗 Live Site Link
-[![Live](https://img.shields.io/badge/Click_Here_For_Restaurant_API-000?style=for-the-badge&logo=ko-fi&logoColor=white)](#)
+[![Live](https://img.shields.io/badge/Click_Here_For_Restaurant_API-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://bssrestaurant.fashionlady.com.bd/swagger/index.html )
 
 
 
